@@ -24,7 +24,7 @@
             <ul>
             <?php
             foreach($server_infos as $key => $value) {
-                echo "<li>" . $key . ":" . " " . $_SERVER[$value] . "</li>";
+                echo "<li>" . $key . ": " . $_SERVER[$value] . "</li>";
             }
             ?>
             </ul>
